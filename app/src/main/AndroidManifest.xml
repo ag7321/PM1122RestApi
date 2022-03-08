@@ -13,13 +13,19 @@
         android:theme="@style/Theme.PM1122RestApi"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ActivityListaEmple"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCrear"
+            android:exported="false" />
+        <activity
             android:name=".Activity_volley"
             android:exported="false" />
         <activity
             android:name=".ActivityRestApi"
             android:exported="false" />
         <activity
-            android:name=".ActivityListaEmple"
+            android:name=".ActivityImagen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
